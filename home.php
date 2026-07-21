@@ -27,7 +27,7 @@ if($name!="" && $phone!=""){
 
 if($res){
     echo "Done inserting. Heading back";
-    header("Location: index.html");
+    header("refresh:1 url=index.html");
     exit();
 }
 ?>

@@ -10,5 +10,5 @@ if ($conn->connect_error) {
     die("Database connection failed: " . $conn->connect_error);
 }
 
-echo "Database connected successfully!";
+echo "<script>console.log('Database connected successfully!');</script>";
 ?>

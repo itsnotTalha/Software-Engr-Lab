@@ -44,7 +44,7 @@ if (isset($_POST['search_btn'])) {
             <input type="text" name="dept" value="<?php echo $data['dept']; ?>" required>
             <br><br>
 
-            <input type="submit" name="update_btn" value="Update Student">
+            <input type="submit" name="update_btn" value="Update Student" style="color:green">
         </form>
 
         <?php
